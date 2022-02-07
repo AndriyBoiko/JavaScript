@@ -185,9 +185,8 @@ document.write('</div>')
     document.write(`<hr style="margin-top: 40px; border: 2px solid silver;">`)
     for(let i=0; i <numbers.length; i++ ) {
         if (numbers[i] % 3 === 0) {
-            document.write( 'okten ' + numbers[i] + " ")
+            document.write( 'okten ' +  " ")
         }
-        document.write( numbers[i] )
     }
 
 
@@ -197,4 +196,27 @@ document.write('</div>')
     for (let i = numbers.length-1; i >= 0; i--){
         document.write( numbers[i] + ' ');
     }
+
+
+// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
+    document.write(`<hr style="margin-top: 40px; border: 2px solid silver;">`);
+    i = numbers.length-1;
+    while (i >= 0){
+        document.write( numbers[i] + ' ');
+        i--;
+    }
+
+    document.write(`<hr style="margin-top: 40px; border: 2px solid silver;">`)
+    for(let i=numbers.length-1; i >=0; i-- ){
+        document.write(numbers[i] + ' ' )
+    }
+    document.write(`<hr style="margin-top: 40px; border: 2px solid silver;">`)
+    j = numbers.length-1;
+
+    while (j >= 0){
+        if(numbers[j] % 2 !== 0){
+            document.write(numbers[j] + ' ' )}
+        j--;
+    }
+
 }
