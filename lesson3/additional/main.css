@@ -1,0 +1,29 @@
+.user-box, .wrap{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.user-block{
+    width: 49%;
+    border: 1px solid red;
+
+}
+.address-block{
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*!*width: 49px;*!*/
+}
+.wrap{
+    margin-top: 20px;
+    align-items: start;
+}
+.post-card{
+    width: 17%;
+    border: 1px solid mediumspringgreen;
+}
+.post-card>h3{
+    margin: 0;
+}
