@@ -15,18 +15,15 @@ let nameValid = (str, val) => {
 }
 console.log(nameValid(n2, '+'))
 
-// s = n2.split(' ').filter(n => n).join(' ');
-// console.log(s)
+
+
+// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень.
+
+
+
+//     let nums = [11,21,3];
 
 // - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
-// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
-// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. відфільтрувати  його за допомоги filter, залишивши тільки парні числа
-
-// - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
-//     let nums = [11,21,3];
-// sortNums('ascending') // [3,11,21]
-// sortNums('descending') // [21,11,3]
-// let arr =[]
 let fnCreator = (counter) => {
     arr = [];
     for (let i = 0; i < counter; i++) {
@@ -36,19 +33,22 @@ let fnCreator = (counter) => {
 }
 let array = fnCreator(10)
 console.log(array)
-
+// Відсортувати його за допомоги sort
 let array1 = [28, 21, 86, 83, 11, 20, 50, 61, 4, 74]
 // console.log(array1)
 console.log(array.sort())
+// відфільтрувати  його за допомоги filter, залишивши тільки парні числа
 console.log(array.filter(n => n % 2 === 0))
 
-// за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
 
+// за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
 let transformToStr = (arr) => {
     return arr.map(elem => elem.toString())
 }
 console.log(transformToStr(array1))
 
+// - створити функцію sortNums(direction),
+// яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 let sortNums = (arr, direction) => {
     if (direction === '-') {
         return arr.sort((a, b) => a - b)
@@ -83,8 +83,8 @@ console.log(coursesAndDurationArray.sort(sortCourse('monthDuration')))
 
 // -- відсортувати його за спаданням за monthDuration
 //                      2.0
-// coursesAndDurationArray.sort((a,b) => b.monthDuration - a.monthDuration )
-// console.log(coursesAndDurationArray)
+coursesAndDurationArray.sort((a,b) => b.monthDuration - a.monthDuration )
+console.log(coursesAndDurationArray)
 
 
 
