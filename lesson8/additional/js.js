@@ -8,9 +8,6 @@ function scraper(startElement) {
         for (const childElement of child.classList) {
             arr.push(childElement);
         }
-        // if (child.classList.value !== ''){
-        //     arr.push(child.classList.value)
-        // }
         scraper(child);
     }
 

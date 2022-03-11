@@ -1,0 +1,23 @@
+input, button{
+    margin-top: 20px;
+}
+.menu{
+    background-color: mediumspringgreen;
+    width: 200px;
+    border: 1px solid red;
+    text-align: center;
+
+}
+
+.disp{
+    display: none;
+}
+
+.block{
+    margin-top: 20px;
+    border: 1px solid salmon;
+    width: 400px;
+}
+.title{
+    color: green;
+}
