@@ -1,0 +1,13 @@
+.users-style{
+    padding: 10px  ;
+    border: 1px solid red;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+}
