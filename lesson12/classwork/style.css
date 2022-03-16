@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: silver;
+    color: white;
+    position: relative;
+}
+
+.title{
+    background-color: rebeccapurple;
+}
+.email{
+    margin: 5px;
+}
+.txt{
+    text-align: justify;
+}
+
+.hiden{
+    display: none;
+}
+
+.btn {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.close{
+    position: absolute;
+    right: 68%;
+}
