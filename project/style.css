@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10%;
+    justify-content: center;
+}
+
+.block  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 150px;
+    background-color: #725959;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.btn-next{
+    padding:10px 0 ;
+    display: block;
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.block>p{
+    font-size: 24px;
+    font-weight: bold;
+}
